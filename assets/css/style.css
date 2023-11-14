@@ -90,8 +90,12 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: white;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /* Media query: tablets and larger (768 an up) */
