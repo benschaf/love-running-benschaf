@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -86,7 +88,6 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 47px;
-    background-color: darkgreen;
 }
 
 /* Hero section */
@@ -109,8 +110,36 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
+}
+
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0
+}
+
+#benefits p {
+    padding: 0 20px;
 }
 
 /* Footer */
