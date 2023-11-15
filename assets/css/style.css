@@ -239,3 +239,25 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
+/* Media query: Big Laptops, desktops, 1200px and up */
+@media screen and (min-width: 1200px) {
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-evenly; */
+    }
+
+    #benefits-mental {
+        order: 2;
+    }
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-end;
+    }
+}
