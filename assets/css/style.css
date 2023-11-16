@@ -246,11 +246,14 @@ main {
     #benefits {
         display: flex;
         flex-direction: row;
-        /* justify-content: space-evenly; */
+    }
+
+    #benefits > div {
+        flex: 1;
     }
 
     #benefits-mental {
-        order: 2;
+        order: 1;
     }
 
     #benefits-mental > div {
